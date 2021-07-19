@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/intro.css">
+    <link rel="stylesheet" href="styles/genral.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/box.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet"
+
+</head>
+
+
+<body>
+  <!-- inntro : copy from apple  -->
+    <section  id="intro_section"> 
+
+     <ul id="navbar">
+            <center>
+            
+             <li><a href="#section-2" class="navbar-link-text">Key Features</a></li>
+            <li><a href="#section_box" class="navbar-link-text">Types</a></li>
+            <li><a href="#about" class="navbar-link-text">About</a></li>
+            </center>  
+        </ul>
+        
+         <div class="intro_text">
+             
+            <div class="hero-headline" >
+                
+                <h1 class="flying-text headline headline">MacBookPro</h1> </center>
+               <h2 class="flying-text eyebrow subtext_intro">The best for the brightest<span>.</span></h2>
+           
+            
+            </div>
+         </div>
+       
+    </section>
+    <section>
+  
+         <!-- fixed navbar -->
+        
+
+    </section>
+    <section id="section-2">
+        <!-- key features carousel from scratch  -->
+      
+        <div class="slideshow-container">
+           
+<center>
+    
+                <div class="mySlides ">
+              
+              <img class="caro_img" src="images/image_1.png" ">
+             
+            </div>
+      
+
+            <div class="mySlides ">
+              
+              <img class="caro_img" src="images/image_2.png" ">
+             
+            </div>
+            
+            <div class="mySlides ">
+              
+              <img class="caro_img" src="images/image_3.png" ">
+         
+            </div>
+             
+           
+</center>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+
+            
+            <script>
+                var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); 
+}
+            </script>
+
+
+
+
+
+
+    </section>
+    <section  id="section_box">
+        <!-- ---------------------------3 boxes--------------------------------------------  -->
+<center>
+    <h1 class="title-boxes">Available In</h1>
+<div class="box-1 box-position">
+
+            <p class="box_content intel">i9 Processor</p> 
+            <p class="box_content nvidia">Nvidia GTX 9800</p> <br>
+            
+
+ </div>
+
+<div class="box-2 box-position">
+
+        <p class="box_content">M1 Chip</p>
+        <p class="box_content nvidia">Nvdia RTX 880</p> <br>
+
+</div>
+</center>
+
+
+
+<script>
+   
+</script>
+        
+    </section>
+    <section>
+        <!-- end from apple  -->
+        <footer id="footer">
+            <center>
+            <p class="footer_content"> Made By Himanshu Jain</p>
+        </center>        
+        </footer>
+    </section>
+
+
+</body>
+</html>

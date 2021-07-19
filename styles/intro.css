@@ -1,0 +1,73 @@
+#intro_section {
+    background-color: black;
+    text-align: left;
+    height:700px;
+    font-family: 'Otomanopee One', sans-serif;
+    
+    margin-right: 0px;
+
+  }
+
+  li {
+    display: inline;
+  }
+
+
+
+.navbar-link-text{
+    text-decoration: none;
+    margin-right: 50px;
+ color: white ;
+}
+  
+
+#navbar{
+    margin: 0px;
+    padding-top: 20px;
+}
+
+
+.flying-text {
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: 0em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+
+    
+  animation-name: eyebrow;
+  animation-duration: 4s;
+
+
+  position: relative;
+  animation: eyebrow 1s ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes eyebrow{
+    from {top: 250px;}
+    to {top: 200px;}
+    
+    
+  }
+
+
+
+
+
+
+.intro_text{
+
+}
+
+
+.headline{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.subtext_intro{
+    text-align: center;
+
+}

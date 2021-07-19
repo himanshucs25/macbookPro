@@ -1,0 +1,62 @@
+.box-1{
+    width: 320px;
+    padding: 10px;
+    border: 10px solid gray;
+    margin: 0;
+    margin-left:0px;
+    display: inline-block;
+}
+
+.box-2{
+
+
+    width: 320px;
+    padding: 10px;
+    border: 10px solid gray;
+    margin: 0;
+    margin-left:0px;
+    display: inline-block;
+}
+
+#section_box{
+    background-color: black;
+    
+    text-align: left;
+    height:400px;
+    font-family: 'Otomanopee One', sans-serif;
+    
+    margin-right: 0px;
+    
+}
+
+.box_content{
+    color: white;
+}
+
+.box-position{
+    margin-top: 100px;
+}
+
+.nvidia:hover{
+    color: tomato;
+
+
+}
+
+.intel:hover{
+    color: turquoise;
+    
+}
+
+.title-boxes{
+    padding-top: 30px;
+    color: white;
+
+
+}
+
+
+#footer_content{
+    color: black;
+    text-align: center;
+}
