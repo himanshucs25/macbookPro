@@ -60,3 +60,9 @@
     color: black;
     text-align: center;
 }
+
+
+.apple_chip:hover{
+    color: aqua;
+
+}
